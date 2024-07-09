@@ -1,0 +1,6 @@
+cinemagoer==2023.5.1
+greenlet==3.0.3
+IMDbPY==2022.7.9
+lxml==5.2.2
+SQLAlchemy==2.0.31
+typing_extensions==4.12.2
