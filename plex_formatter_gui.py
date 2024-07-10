@@ -74,6 +74,9 @@ def on_search_click():
             text_result.insert(tk.END, result)
             with open('movies.txt', 'a') as file:
                 file.write(result + '\n')
+            # Copy to clipboard
+            root.clipboard_clear()
+            root.clipboard_append(result)
 
 root = tk.Tk()
 root.title("Movie Details Fetcher")
